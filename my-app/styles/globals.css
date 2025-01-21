@@ -1,0 +1,35 @@
+/* /styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blink Effect Animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s infinite ease-in-out;
+}
+/* Add these in your globals.css file to animate the shadow */
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Larger shadow */
+  }
+  100% {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Original shadow */
+  }
+}
+
+.animate-blink {
+  animation: shadowPulse 1.5s ease-in-out infinite;
+}
+
