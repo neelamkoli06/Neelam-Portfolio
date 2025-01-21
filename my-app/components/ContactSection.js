@@ -20,7 +20,7 @@ export default function ContactSection() {
           className="w-full max-w-lg"
           onSubmit={handleSubmit}
         >
-          <h2 className="text-4xl font-bold mb-8 text-center sm:text-left">
+          <h2 className="text-4xl font-bold mb-8 text-center sm:text-left animate-pulse">
             Contact Me
           </h2>
           <div className="mb-4">

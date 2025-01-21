@@ -1,7 +1,7 @@
 export default function AboutSection() {
     return (
       <section className="py-16 bg-gray-800 text-white min-h-screen flex flex-col items-center">
-        <h2 className="text-4xl font-bold mb-8">About Me</h2>
+        <h2 className="text-4xl font-bold mb-8 animate-pulse">About Me</h2>
         <div className="max-w-4xl text-lg text-center mb-8">
           <p>
             Hello! I'm a passionate web developer with experience in building modern web applications. 
